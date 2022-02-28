@@ -131,4 +131,6 @@ if __name__ == "__main__":
 
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
-        pred_df = generate_prediction_file(use_all_data_to_train=True, verbose=False)
+        pred_df = generate_prediction_file(
+            use_all_data_to_train=True, verbose=False, read_meteo_from_disk=True
+        )

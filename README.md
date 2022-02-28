@@ -56,7 +56,7 @@ You will find the predictions in the `predictions` folder as a `predicted_bloom_
 #### [Extra] Interactive Jupyter notebook demo:
 When you are in the parent directory run the following:
 ```
-cd notebook
+cd notebooks
 jupyter-lab
 ```
 Your browser should open with the `jupyter-lab` interface.
